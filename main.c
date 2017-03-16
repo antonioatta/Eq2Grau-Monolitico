@@ -4,7 +4,7 @@
 struct vet_eq {
 	int a, b, c;
 	float x1, x2;
-	float delta;
+	// float delta;
 	int raizesReais;
 };
 

@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
-struct vet_eq {
+struct eq2grau {
 	int a, b, c;
 	float x1, x2;
-	// float delta;
 	int raizesReais;
 };
 
 int main() {
 
-	struct vet_eq vetEq[10];
+	struct eq2grau vetEq[10];
 	int delta;
 	int i;
 	int numEq = 3;
